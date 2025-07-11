@@ -1,0 +1,6 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:macros="sap.fe.macros">
+	<VBox id="vBox" core:require="{ handler: 'passengerlist/ext/fragment/PassengerBookings'}">
+		<macros:Table id="toPassengerBookingsTable" metaPath="to_Booking/@com.sap.vocabularies.UI.v1.LineItem#tableMacro"/>
+		<Button id="showLastBookingButton" text="Last Booking" press="handler.showLastBooking" class="sapUiTinyMarginBegin" />
+	</VBox>
+</core:FragmentDefinition>
